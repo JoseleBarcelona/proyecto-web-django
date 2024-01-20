@@ -2,10 +2,10 @@
 
 <head>
 
-
+    {% load static %}
 
     <!-- Bootstrap -->
-    <link href="/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="{% static 'App_proyectoWeb/vendor/bootstrap/css/bootstrap.min.css' %}" rel="stylesheet">
 
     <!-- Fonts -->
     
@@ -14,7 +14,7 @@
 
 
     <!-- Styles -->
-    <link href="/css/gestion.css" rel="stylesheet">
+    <link href="{% static 'App_proyectoWeb/css/gestion.css' %}" rel="stylesheet">
 </head>
 
 <body>
@@ -60,13 +60,13 @@
   <section class="page-section clearfix">
     <div class="container">
       <div class="intro">
-        <img class="intro-img img-fluid mb-3 mb-lg-0 rounded" src="/img/principal.jpg" alt="">
+        <img class="intro-img img-fluid mb-3 mb-lg-0 rounded" src="{% static 'App_proyectoWeb/img/principal.jpg' %}" alt="">
         <div class="intro-text left-0 text-center bg-faded p-5 rounded">
           <h2 class="section-heading mb-4" >
             <span class="section-heading-upper">Puntualidad</span>
             <span class="section-heading-lower">El mejor stock</span>
           </h2>
-          <p class="mb-3">En la puertra de tu casa en menos de 48 h con el envío normal. En menos de 24 h con el envío express.
+          <p class="mb-3">En la puerta de tu casa en menos de 48 h con el envío normal. En menos de 24 h con el envío express.
           </p>
         
         </div>
@@ -127,8 +127,8 @@
 	</footer>
 
     <!-- Bootstrap -->
-    <script src="/vendor/jquery/jquery.min.js"></script>
-    <script src="/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="{% static 'App_proyectoWeb/vendor/jquery/jquery.min.js' %}"></script>
+    <script src="{% static 'App_proyectoWeb/vendor/bootstrap/js/bootstrap.bundle.min.js' %}"></script>
 
 </body>
 
