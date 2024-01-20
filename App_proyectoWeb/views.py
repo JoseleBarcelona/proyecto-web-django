@@ -2,7 +2,7 @@ from django.shortcuts import render, HttpResponse
 
 # Create your views here.
 
-def inicio(request):
+def home(request):
 
     return render(request, 'App_proyectoWeb/home.html')
 
