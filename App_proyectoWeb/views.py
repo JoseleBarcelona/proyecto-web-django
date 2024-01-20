@@ -4,7 +4,7 @@ from django.shortcuts import render, HttpResponse
 
 def inicio(request):
 
-    return render(request, 'App_proyectoWeb/inicio.html')
+    return render(request, 'App_proyectoWeb/home.html')
 
 def servicios(request):
 
