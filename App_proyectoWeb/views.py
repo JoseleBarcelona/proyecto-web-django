@@ -4,20 +4,20 @@ from django.shortcuts import render, HttpResponse
 
 def inicio(request):
 
-    return HttpResponse("Inicio")
+    return render(request, 'App_proyectoWeb/inicio.html')
 
 def servicios(request):
 
-    return HttpResponse("Servicios")
+    return render(request, 'App_proyectoWeb/servicios.html')
 
 def tienda(request):
 
-    return HttpResponse("Tienda")
+    return render(request, 'App_proyectoWeb/tienda.html')
 
 def blog(request):
 
-    return HttpResponse("Blog")
+    return render(request, 'App_proyectoWeb/blog.html')
 
 def contacto(request):
 
-    return HttpResponse("Contacto")
+    return render(request, 'App_proyectoWeb/contacto.html')
