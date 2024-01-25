@@ -1,5 +1,17 @@
 {% extends "App_proyectoWeb/base.html" %}
 {% load static %}
 {% block content %}
-<div><p></p></div>
+
+    {% for servicio in servicios %}
+
+<div><p>
+
+    <h2 style="color: white;">{{servicio.titulo}}</h2>
+    <p style="color: white;">{{servicio.contenido}}</p>
+    <p><img src="{{servicio.imagen.url}}" alt="Imagen Django"></p>
+
+</p></div>
+
+    {% endfor %}
+
 {% endblock %}
