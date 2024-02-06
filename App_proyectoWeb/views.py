@@ -11,9 +11,6 @@ def tienda(request):
 
     return render(request, 'App_proyectoWeb/tienda.html')
 
-def blog(request):
-
-    return render(request, 'App_proyectoWeb/blog.html')
 
 def contacto(request):
 
