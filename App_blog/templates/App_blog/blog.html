@@ -24,12 +24,14 @@
     {% endfor %}
 
     <section>
-      <div style="width: 75%; background-color: white; margin: auto; text-align: center;">
+      <div style="width: 75%; color: white; margin: auto; text-align: center;">
       
         Categorias: &nbsp;
         {% for post in posts %}
           {% for categoria in post.categorias.all %}
-            {{ categoria.nombre }} &nbsp;&nbsp;
+
+            <a href="{% url 'categoria' categoria.id %}">{{ categoria.nombre }}</a> &nbsp;&nbsp;
+
           {% endfor %}
 
         {% endfor %}
