@@ -162,7 +162,7 @@ p {
   position: relative;
   padding: 3rem;
   margin: 0.5rem;
-  background-color: rgba(24, 64, 8);
+  background-color: rgb(24, 64, 8);
   color: cornsilk;
 }
 
@@ -229,7 +229,7 @@ p {
 }
 
 .footer {
-   background-color: rgba(24, 64, 8, 0.8);
+  background-color: rgba(24, 64, 8, 0.8);
 }
 
 
@@ -285,4 +285,12 @@ ul.errorlist{
 
 .links-categorias:hover{
   text-decoration:none !important;
+}
+
+.contenedorFormulario{
+  background-color: rgb(24, 64, 8);
+  width: 50%;
+  margin: 10px auto;
+  border-radius: 15px;
+  padding: 5px 5px;
 }
